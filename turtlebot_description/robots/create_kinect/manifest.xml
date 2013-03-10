@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<model>
+  <name>TurtleBot</name>
+  <version>1.0</version>
+  <sdf version="1.3">create_kinect.sdf</sdf>
+
+  <author>
+    <name>Nate Koenig</name>
+    <email>nate@osrfoundation.org</email>
+  </author>
+
+  <author>
+    <name>Ryan Gariepy</name>
+    <email>rgariepy@clearpathrobotics.com</email>
+  </author>
+
+  <description>
+    A model of the Turtlebot v1.0 with the Kinect sensor
+  </description>
+
+  <depend>
+    <model>
+      <uri>model://kinect</uri>
+      <version>1.0</version>
+    </model>
+    <model>
+      <uri>model://create</uri>
+      <version>1.0</version>
+    </model>
+  </depend>
+</model>
